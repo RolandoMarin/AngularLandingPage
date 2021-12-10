@@ -1,0 +1,38 @@
+.navbar{
+   
+    background-color: darkseagreen;
+    height: 50px;
+    line-height: 50px;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul>li {
+    
+    display: inline;
+    padding: 0.5em;
+    margin: 0.5em;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+a:hover{
+    color: white;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: darkseagreen;
+    color: white;
+    text-align: center;
+  }
+

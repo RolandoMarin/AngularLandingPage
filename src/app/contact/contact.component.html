@@ -1,3 +1,23 @@
-<p>
-  contact works!
-</p>
+<div class="content">
+ 
+  <h1>Enter Information:</h1>
+    <form [formGroup]= "chatForm" (ngSubmit) = "onSubmit()">
+      <div class="form-container">
+      <div>
+        Username  
+      </div>
+      <input class="form-field" formControlName="userName">
+      </div>
+      <div>
+        Message
+        <input class="form-field" formControlName = "message">
+      </div> 
+
+      <button class="button" type="submit">
+        Submit
+      </button>
+
+    </form>
+
+  
+</div>
